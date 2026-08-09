@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIX — Digital Studio</title>
+<meta name="description" content="FIX es un estudio digital que diseña sitios web y experiencias con criterio, intención y sensibilidad visual. Con base en México, desde 2026.">
+<meta name="theme-color" content="#0b0b0a">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="FIX — Digital Studio">
+<meta property="og:description" content="Espacios digitales, construidos con intención.">
+<meta property="og:image" content="assets/images/fix-brand-space.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" data-nav>
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark" aria-label="FIX — Inicio">
+      <span class="nav__mark-fix">FIX</span>
+      <span class="nav__mark-sub">Digital Studio</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Navegación principal">
+      <a href="#studio">Studio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <a class="nav__cta" href="https://www.instagram.com/madewithfix/" target="_blank" rel="noopener">
+      Instagram
+    </a>
+
+    <button class="nav__toggle" data-menu-toggle aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MENU MOVIL ============ -->
+<div class="mobile-menu" id="menu-movil" data-mobile-menu>
+  <nav aria-label="Navegación móvil">
+    <a href="#studio" data-menu-link>Studio</a>
+    <a href="#servicios" data-menu-link>Servicios</a>
+    <a href="#proceso" data-menu-link>Proceso</a>
+    <a href="#faq" data-menu-link>FAQ</a>
+    <a href="https://www.instagram.com/madewithfix/" target="_blank" rel="noopener" class="mobile-menu__cta">Escríbenos en Instagram</a>
+  </nav>
+</div>
+
+<main id="contenido">
+
+  <!-- ============ 01 OPENING ============ -->
+  <section class="hero" id="top">
+    <div class="hero__media">
+      <img
+        src="assets/images/fix-brand-space.jpg"
+        alt="Espacio interior oscuro y minimalista con el nombre FIX sobre la pared y mobiliario en tonos verde oliva."
+        class="hero__img"
+        fetchpriority="high">
+      <div class="hero__scrim"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal" data-reveal>Est. 2026</p>
+      <h1 class="hero__title">
+        <span class="reveal-line"><span class="reveal-line__inner">Espacios digitales,</span></span>
+        <span class="reveal-line"><span class="reveal-line__inner">construidos con intención.</span></span>
+      </h1>
+      <p class="hero__desc reveal" data-reveal>
+        FIX es un estudio digital. Diseñamos sitios web y experiencias
+        para negocios que entienden que la forma en la que se presentan
+        importa tanto como lo que ofrecen.
+      </p>
+      <a class="hero__cta reveal" data-reveal href="https://www.instagram.com/madewithfix/" target="_blank" rel="noopener">
+        <span>Conocer FIX</span>
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M2 12.5L12.5 2M12.5 2H4.5M12.5 2V10" stroke="currentColor" stroke-width="1.2"/></svg>
+      </a>
+    </div>
+
+    <div class="hero__foot reveal" data-reveal>
+      <span>FIX / Digital Studio</span>
+      <span class="hero__foot-divider" aria-hidden="true"></span>
+      <span>Desplázate</span>
+    </div>
+  </section>
+
+  <!-- ============ 02 STATEMENT ============ -->
+  <section class="statement">
+    <div class="statement__grid">
+      <div class="statement__text">
+        <p class="eyebrow" data-reveal>Filosofía</p>
+        <p class="statement__lead" data-reveal>
+          Una página no debería simplemente existir.
+          Debería representar lo que hay detrás de ella.
+        </p>
+        <div class="statement__body" data-reveal>
+          <p>
+            Creemos que un sitio web es la primera conversación entre
+            una marca y las personas que aún no la conocen. Por eso
+            no partimos de plantillas: partimos de lo que hace distinto
+            a cada negocio, y construimos alrededor de eso.
+          </p>
+          <p>
+            Diseño, tipografía, ritmo, espacio. Cada decisión responde
+            a una razón concreta — nunca a una costumbre.
+          </p>
+        </div>
+      </div>
+
+      <div class="statement__media">
+        <figure class="statement__img reveal-img" data-reveal>
+          <img
+            src="assets/images/fix-concrete-garden.jpg"
+            alt="Jardín interior de concreto con un árbol, agua y vegetación entre muros de arquitectura brutalista."
+            loading="lazy" width="1200" height="1500">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 SERVICIOS ============ -->
+  <section class="services" id="servicios">
+    <div class="services__head">
+      <p class="eyebrow eyebrow--light" data-reveal>Servicios</p>
+      <h2 class="services__title" data-reveal>Cuatro formas de empezar.</h2>
+    </div>
+
+    <div class="services__explorer">
+      <div class="services__tabs" role="tablist" aria-label="Servicios de FIX">
+        <button class="services__tab is-active" role="tab" aria-selected="true" aria-controls="panel-sencillo" id="tab-sencillo" data-service="sencillo">
+          <span class="services__tab-index">01</span>
+          <span class="services__tab-name">Sencillo</span>
+        </button>
+        <button class="services__tab" role="tab" aria-selected="false" aria-controls="panel-avanzado" id="tab-avanzado" data-service="avanzado">
+          <span class="services__tab-index">02</span>
+          <span class="services__tab-name">Avanzado</span>
+        </button>
+        <button class="services__tab" role="tab" aria-selected="false" aria-controls="panel-max" id="tab-max" data-service="max">
+          <span class="services__tab-index">03</span>
+          <span class="services__tab-name">Max</span>
+        </button>
+        <button class="services__tab" role="tab" aria-selected="false" aria-controls="panel-mantenimiento" id="tab-mantenimiento" data-service="mantenimiento">
+          <span class="services__tab-index">04</span>
+          <span class="services__tab-name">Mantenimiento</span>
+        </button>
+      </div>
+
+      <div class="services__stage">
+        <div class="services__media">
+          <img src="assets/images/fix-interior-warm.jpg" alt="Interior cálido y minimalista con muebles de madera y luz natural." class="services__img is-active" data-service-img="sencillo" loading="lazy">
+          <img src="assets/images/fix-stone-office.jpg" alt="Espacio monumental con una gran mesa de piedra y ventanales de piso a techo." class="services__img" data-service-img="avanzado" loading="lazy">
+          <img src="assets/images/fix-waterfront-architecture.jpg" alt="Arquitectura contemporánea frente al mar, con geometría de concreto y vegetación." class="services__img" data-service-img="max" loading="lazy">
+          <img src="assets/images/fix-library.jpg" alt="Biblioteca de madera oscura con libros, arte y mobiliario cuidado." class="services__img" data-service-img="mantenimiento" loading="lazy">
+        </div>
+
+        <div class="services__panels">
+          <div class="services__panel is-active" role="tabpanel" id="panel-sencillo" aria-labelledby="tab-sencillo" data-panel="sencillo">
+            <p class="services__panel-desc">
+              Una base sólida, bien construida desde el primer día.
+              Pensado para negocios que necesitan una presencia clara,
+              cuidada y lista para crecer.
+            </p>
+            <ul class="services__features">
+              <li>Diseño a medida, no una plantilla</li>
+              <li>Estructura pensada para tu negocio</li>
+              <li>Optimizado para móvil</li>
+            </ul>
+            <p class="services__for"><span>Para quién:</span> negocios que están comenzando su presencia digital y quieren hacerlo bien desde el inicio.</p>
+          </div>
+
+          <div class="services__panel" role="tabpanel" id="panel-avanzado" aria-labelledby="tab-avanzado" data-panel="avanzado" hidden>
+            <p class="services__panel-desc">
+              Mayor profundidad visual e interacción. Un sitio que se
+              mueve, responde y se siente construido con más capas
+              de detalle.
+            </p>
+            <ul class="services__features">
+              <li>Animaciones e interacción a medida</li>
+              <li>Composición y navegación más elaboradas</li>
+              <li>Personalización visual ampliada</li>
+            </ul>
+            <p class="services__for"><span>Para quién:</span> marcas con una identidad definida que buscan una experiencia más rica.</p>
+          </div>
+
+          <div class="services__panel" role="tabpanel" id="panel-max" aria-labelledby="tab-max" data-panel="max" hidden>
+            <p class="services__panel-desc">
+              Libertad creativa y funcional completa. Sin límites de
+              plantilla ni estructura predefinida — construido desde
+              cero alrededor de tu proyecto.
+            </p>
+            <ul class="services__features">
+              <li>Concepto y dirección de arte propios</li>
+              <li>Funcionalidad e interacción avanzadas</li>
+              <li>Acompañamiento cercano durante todo el proceso</li>
+            </ul>
+            <p class="services__for"><span>Para quién:</span> proyectos ambiciosos que necesitan una experiencia completamente propia.</p>
+          </div>
+
+          <div class="services__panel" role="tabpanel" id="panel-mantenimiento" aria-labelledby="tab-mantenimiento" data-panel="mantenimiento" hidden>
+            <p class="services__panel-desc">
+              Un sitio bien hecho también necesita cuidado. Actualizamos,
+              ajustamos y hacemos evolucionar tu página después del
+              lanzamiento.
+            </p>
+            <ul class="services__features">
+              <li>Actualizaciones de contenido e imágenes</li>
+              <li>Ajustes y mejoras continuas</li>
+              <li>Acompañamiento después del lanzamiento</li>
+            </ul>
+            <p class="services__for"><span>Para quién:</span> quienes ya tienen su sitio con FIX y quieren mantenerlo vivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 STUDIO ============ -->
+  <section class="studio" id="studio">
+    <div class="studio__intro">
+      <p class="eyebrow" data-reveal>Studio</p>
+      <h2 class="studio__title" data-reveal>Qué tipo de sensibilidad tiene FIX.</h2>
+      <p class="studio__desc" data-reveal>
+        Todavía no tenemos un gran historial de proyectos que enseñar.
+        Lo que sí tenemos es un criterio claro: materiales, arquitectura,
+        tipografía y luz. Este es el universo visual del que parte
+        cada sitio que construimos.
+      </p>
+    </div>
+
+    <figure class="studio__moodboard reveal-img" data-reveal>
+      <img
+        src="assets/images/fix-brand-moodboard.jpg"
+        alt="Moodboard de identidad de FIX con fotografías de arquitectura, muestras de tipografía, materiales y bocetos sobre una mesa de madera."
+        loading="lazy" width="1200" height="1200">
+      <figcaption>El moodboard de FIX — donde empieza cada decisión de diseño.</figcaption>
+    </figure>
+
+    <div class="studio__carousel-wrap">
+      <div class="studio__carousel" data-carousel tabindex="0" role="region" aria-label="Detalles del universo visual de FIX">
+        <figure class="studio__slide">
+          <img src="assets/images/fix-materials.jpg" alt="Muestras de piedra, mármol y madera sobre una superficie, seleccionadas por textura y tono." loading="lazy">
+          <figcaption>Materiales</figcaption>
+        </figure>
+        <figure class="studio__slide">
+          <img src="assets/images/fix-brand-key.jpg" alt="Detalle de una puerta de madera con manija dorada y un llavero con el nombre FIX." loading="lazy">
+          <figcaption>Detalle</figcaption>
+        </figure>
+        <figure class="studio__slide">
+          <img src="assets/images/fix-editorial-art.jpg" alt="Espacio lounge oscuro con una pieza de arte geométrica en madera y luz cálida." loading="lazy">
+          <figcaption>Dirección de arte</figcaption>
+        </figure>
+        <figure class="studio__slide">
+          <img src="assets/images/fix-studio-office.jpg" alt="Oficina sofisticada con escritorio, librería de madera y luz cálida." loading="lazy">
+          <figcaption>Espacio de trabajo</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 APPROACH / PROCESO ============ -->
+  <section class="approach" id="proceso">
+    <div class="approach__grid">
+      <div class="approach__media reveal-img" data-reveal>
+        <img
+          src="assets/images/fix-editorial-woman.jpg"
+          alt="Fotografía editorial de una mujer en cuclillas junto a un bolso negro, con arquitectura minimalista y el mar de fondo."
+          loading="lazy" width="1000" height="1300">
+      </div>
+
+      <div class="approach__content">
+        <p class="eyebrow" data-reveal>Proceso</p>
+        <h2 class="approach__title" data-reveal>Cómo trabajamos.</h2>
+
+        <div class="approach__list">
+          <button class="approach__item is-active" data-approach-toggle aria-expanded="true" aria-controls="approach-panel-1">
+            <span class="approach__item-index">01</span>
+            <span class="approach__item-name">Entender</span>
+            <span class="approach__item-icon" aria-hidden="true"></span>
+          </button>
+          <div class="approach__panel" id="approach-panel-1">
+            <p>Escuchamos qué necesita tu negocio y cómo quiere ser percibido antes de proponer nada visual.</p>
+          </div>
+
+          <button class="approach__item" data-approach-toggle aria-expanded="false" aria-controls="approach-panel-2">
+            <span class="approach__item-index">02</span>
+            <span class="approach__item-name">Definir</span>
+            <span class="approach__item-icon" aria-hidden="true"></span>
+          </button>
+          <div class="approach__panel" id="approach-panel-2" hidden>
+            <p>Trazamos la dirección visual y de contenido: qué debe transmitir el sitio y en qué orden.</p>
+          </div>
+
+          <button class="approach__item" data-approach-toggle aria-expanded="false" aria-controls="approach-panel-3">
+            <span class="approach__item-index">03</span>
+            <span class="approach__item-name">Construir</span>
+            <span class="approach__item-icon" aria-hidden="true"></span>
+          </button>
+          <div class="approach__panel" id="approach-panel-3" hidden>
+            <p>Diseñamos y desarrollamos el sitio completo, con atención al detalle en cada sección.</p>
+          </div>
+
+          <button class="approach__item" data-approach-toggle aria-expanded="false" aria-controls="approach-panel-4">
+            <span class="approach__item-index">04</span>
+            <span class="approach__item-name">Refinar</span>
+            <span class="approach__item-icon" aria-hidden="true"></span>
+          </button>
+          <div class="approach__panel" id="approach-panel-4" hidden>
+            <p>Revisamos, ajustamos y pulimos antes del lanzamiento — y seguimos disponibles después.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="faq__head">
+      <p class="eyebrow" data-reveal>Preguntas frecuentes</p>
+      <h2 class="faq__title" data-reveal>Antes de escribirnos.</h2>
+    </div>
+
+    <div class="faq__list">
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a1">
+          <span>¿Es seguro trabajar con FIX?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a1" hidden>
+          <p>Sí. Somos un estudio joven, y precisamente por eso cuidamos cada proyecto con especial atención: mantenemos comunicación clara durante todo el proceso a través de Instagram.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a2">
+          <span>¿Cómo funciona el proceso?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a2" hidden>
+          <p>Todo comienza con una conversación por Instagram. A partir de ahí entendemos tu negocio, definimos el enfoque y construimos el sitio siguiendo nuestro proceso de cuatro etapas.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a3">
+          <span>¿Qué necesito proporcionar?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a3" hidden>
+          <p>Nos ayuda contar con tu logo o marca (si ya existe), fotografías propias si las tienes, y una idea general de lo que quieres comunicar. Si no tienes todo eso, lo resolvemos juntos.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a4">
+          <span>¿Puedo solicitar cambios?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a4" hidden>
+          <p>Sí. El proceso incluye una etapa de refinamiento pensada exactamente para eso: ajustar el sitio hasta que se sienta correcto.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a5">
+          <span>¿Qué ocurre después de contactar?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a5" hidden>
+          <p>Te respondemos por Instagram para conocer tu proyecto y ver si somos el estudio correcto para construirlo contigo.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a6">
+          <span>¿Puedo actualizar mi página más adelante?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a6" hidden>
+          <p>Sí, para eso existe Mantenimiento: una forma de seguir ajustando y evolucionando el sitio después del lanzamiento.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a7">
+          <span>¿Puedo comenzar con algo sencillo y evolucionarlo después?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a7" hidden>
+          <p>Sí. Muchos proyectos empiezan en Sencillo y crecen hacia Avanzado o Max con el tiempo. El sitio puede evolucionar contigo.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" data-faq-toggle aria-expanded="false" aria-controls="faq-a8">
+          <span>¿FIX puede trabajar con cualquier tipo de negocio?</span>
+          <span class="faq__q-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq__a" id="faq-a8" hidden>
+          <p>Trabajamos mejor con negocios y marcas que valoran el diseño y quieren una presencia digital con criterio propio, sin importar el tamaño del proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 INVITACION FINAL ============ -->
+  <section class="invite">
+    <div class="invite__media">
+      <img
+        src="assets/images/fix-coastal-dining.jpg"
+        alt="Mesa junto al mar al atardecer; una persona sostiene un teléfono mostrando un sitio web de un restaurante."
+        loading="lazy">
+      <div class="invite__scrim"></div>
+    </div>
+    <div class="invite__content">
+      <p class="eyebrow eyebrow--light" data-reveal>FIX</p>
+      <h2 class="invite__title reveal" data-reveal>Hagamos que tu marca<br>tenga un lugar propio.</h2>
+      <a class="invite__cta reveal" data-reveal href="https://www.instagram.com/madewithfix/" target="_blank" rel="noopener">
+        <span>Conocer FIX en Instagram</span>
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M2 12.5L12.5 2M12.5 2H4.5M12.5 2V10" stroke="currentColor" stroke-width="1.2"/></svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__mark">
+      <span class="footer__mark-fix">FIX</span>
+      <span class="footer__mark-sub">Digital Studio</span>
+    </div>
+    <p class="footer__tagline">Construido con propósito, porque los detalles sí importan.</p>
+    <div class="footer__meta">
+      <span>Est. 2026</span>
+      <a href="https://www.instagram.com/madewithfix/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
